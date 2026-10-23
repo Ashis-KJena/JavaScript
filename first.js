@@ -13,12 +13,3 @@ console.log(y);
 console.log(z);
 isFollow=true;
 console.log(isFollow);
-{
-  let a=5;
-  console.log(a);
-}
-{
-  let a=10;
-  console.log(a);
-}
-
