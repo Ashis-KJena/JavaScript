@@ -41,4 +41,26 @@ for(let c of b){
     size++;
 }
 console.log("String size=",size);
+// for in loop
+let student={
+    fullName:"Ridhika Malhan",
+    age:18,
+    cgpa:9.3,
+    isPass:true,
+};
+ for(let key in student){
+    console.log("key=",key,"value=",student[key]);
+ }
+
+ //print all the even numbers from 0 to 100.
+ for(let e=0;e<=100;e+=2){
+    console.log("All even numbers from 0-100 are",e);
+ }
+ // Create a number guessing game.
+ let gameNum=50;
+ let userNum= prompt("Guess the number:");
+  while(gameNum != userNum){
+    userNum= prompt("You've guessed the wrong number, guess again");
+  }
+  console.log("Congratulations, you've guessed it correct",userNum);
 
